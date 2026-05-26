@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "youtube-content-creator"
+version = "1.0.0"
+description = "Transform YouTube videos into professional content using local AI"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.31.0",
+    "yt-dlp>=2024.0.0",
+    "youtube-transcript-api>=0.6.0",
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "weasyprint>=60.0",
+    "reportlab",
+    "sqlalchemy>=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov", "ruff", "mypy"]
+
+[project.scripts]
+content-creator = "app:main"

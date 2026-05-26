@@ -1,0 +1,360 @@
+2026-05-23 04:19:57,554 | INFO     | utils.transcript_extractor | Attempting Strategy 1 (transcript_api) for video CnXdddeZ4tQ
+2026-05-23 04:20:08,899 | INFO     | __main__ | Selected strategy FULL for model deepseek-r1:8b (len: 58503)
+2026-05-23 04:20:54,672 | INFO     | utils.transcript_extractor | Attempting Strategy 1 (transcript_api) for video CnXdddeZ4tQ
+2026-05-23 14:59:00,694 | INFO     | utils.transcript_extractor | Attempting Strategy 1 (transcript_api) for video p4pHsuEf4Ms
+2026-05-23 14:59:06,614 | INFO     | __main__ | Selected strategy FULL for model deepseek-r1:latest (len: 16056)
+2026-05-23 15:02:26,340 | INFO     | utils.transcript_extractor | Attempting Strategy 1 (transcript_api) for video 6njREUQAFdg
+2026-05-23 15:02:32,297 | INFO     | __main__ | Selected strategy FULL for model deepseek-r1:latest (len: 20616)
+2026-05-23 15:03:07,715 | INFO     | __main__ | Selected strategy FULL for model qwen3.6:latest (len: 20616)
+2026-05-23 16:04:13,516 | INFO     | utils.transcript_extractor | Attempting Strategy 1 (transcript_api) for video S6J5YygV4fc
+2026-05-23 16:04:15,059 | INFO     | utils.cache_manager | Cache SAVE: Transcript for https://www.youtube.com/watch?v=S6J5YygV4fc
+2026-05-23 16:04:20,480 | ERROR    | utils.session_manager | Job a4bc73cb failed: name 'title' is not defined
+Traceback (most recent call last):
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\utils\session_manager.py", line 70, in _process
+    result = processing_func(job_id, self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 474, in job_wrapper
+    job_id, jq, transcript_text, selected_model, selected_type, title
+                                                                ^^^^^
+NameError: name 'title' is not defined
+2026-05-23 16:05:28,453 | ERROR    | utils.session_manager | Job 8ab00803 failed: name 'title' is not defined
+Traceback (most recent call last):
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\utils\session_manager.py", line 70, in _process
+    result = processing_func(job_id, self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 474, in job_wrapper
+    job_id, jq, transcript_text, selected_model, selected_type, title
+                                                                ^^^^^
+NameError: name 'title' is not defined
+2026-05-23 16:06:01,254 | ERROR    | utils.session_manager | Job 8ca4d864 failed: name 'title' is not defined
+Traceback (most recent call last):
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\utils\session_manager.py", line 70, in _process
+    result = processing_func(job_id, self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 474, in job_wrapper
+    job_id, jq, transcript_text, selected_model, selected_type, title
+                                                                ^^^^^
+NameError: name 'title' is not defined
+2026-05-23 16:06:07,320 | ERROR    | utils.session_manager | Job 2610ec68 failed: name 'title' is not defined
+Traceback (most recent call last):
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\utils\session_manager.py", line 70, in _process
+    result = processing_func(job_id, self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 474, in job_wrapper
+    job_id, jq, transcript_text, selected_model, selected_type, title
+                                                                ^^^^^
+NameError: name 'title' is not defined
+2026-05-23 16:18:15,479 | INFO     | utils.transcript_extractor | Attempting Strategy 1 (transcript_api) for video p4pHsuEf4Ms
+2026-05-23 16:18:16,897 | INFO     | utils.cache_manager | Cache SAVE: Transcript for https://www.youtube.com/watch?v=p4pHsuEf4Ms
+2026-05-23 16:18:51,439 | INFO     | utils.transcript_extractor | Attempting Strategy 1 (transcript_api) for video RQWpF2Gb-gU
+2026-05-23 16:18:52,863 | INFO     | utils.cache_manager | Cache SAVE: Transcript for https://www.youtube.com/watch?v=RQWpF2Gb-gU
+2026-05-23 16:36:24,706 | INFO     | utils.cache_manager | Cache HIT: Transcript for https://www.youtube.com/watch?v=RQWpF2Gb-gU
+2026-05-23 16:37:23,183 | INFO     | utils.transcript_extractor | Attempting Strategy 1 (transcript_api) for video 8iZUyE7SlXo
+2026-05-23 16:37:24,382 | INFO     | utils.cache_manager | Cache SAVE: Transcript for https://www.youtube.com/watch?v=8iZUyE7SlXo
+2026-05-23 16:38:59,532 | INFO     | utils.transcript_extractor | Attempting Strategy 1 (transcript_api) for video 1ve4Atbqmoo
+2026-05-23 16:39:01,196 | INFO     | utils.cache_manager | Cache SAVE: Transcript for https://www.youtube.com/watch?v=1ve4Atbqmoo
+2026-05-23 16:47:03,669 | INFO     | utils.cache_manager | Cache HIT: Transcript for https://www.youtube.com/watch?v=p4pHsuEf4Ms
+2026-05-23 16:48:03,358 | INFO     | utils.transcript_extractor | Attempting Strategy 1 (transcript_api) for video 7HKot-brXFE
+2026-05-23 16:48:06,683 | INFO     | utils.cache_manager | Cache SAVE: Transcript for https://www.youtube.com/watch?v=7HKot-brXFE
+2026-05-23 16:50:53,726 | INFO     | utils.cache_manager | Cache HIT: Transcript for https://www.youtube.com/watch?v=p4pHsuEf4Ms
+2026-05-23 17:01:06,807 | ERROR    | __main__ | Job 6ca313e2 failed during execution: timed out
+2026-05-23 17:01:06,808 | ERROR    | utils.session_manager | Job 6ca313e2 failed: timed out
+Traceback (most recent call last):
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\utils\session_manager.py", line 70, in _process
+    result = processing_func(job_id, self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 480, in job_wrapper
+    # --- CACHE CHECK ---
+                   ^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 75, in execute_generation_job
+    raise e
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 54, in execute_generation_job
+    chunk_summaries.append(f"## Section {i+1}\\n{summarize_transcript(chunk, selected_model)}")
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\content\generators.py", line 73, in summarize_transcript
+    return _ollama_chat(messages, model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\content\generators.py", line 34, in _ollama_chat
+    with urllib.request.urlopen(req, timeout=settings.OLLAMA_TIMEOUT) as resp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 1352, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\http\client.py", line 1415, in getresponse
+    response.begin()
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\http\client.py", line 330, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\http\client.py", line 291, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+2026-05-23 17:02:30,317 | INFO     | utils.cache_manager | Cache HIT: Transcript for https://www.youtube.com/watch?v=p4pHsuEf4Ms
+2026-05-23 17:04:38,505 | INFO     | utils.cache_manager | Cache HIT: Transcript for https://www.youtube.com/watch?v=7HKot-brXFE
+2026-05-23 17:19:53,300 | ERROR    | __main__ | Job 2ec43171 failed during execution: timed out
+2026-05-23 17:19:53,301 | ERROR    | utils.session_manager | Job 2ec43171 failed: timed out
+Traceback (most recent call last):
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\utils\session_manager.py", line 70, in _process
+    result = processing_func(job_id, self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 496, in job_wrapper
+    return execute_generation_job(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 75, in execute_generation_job
+    raise e
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 54, in execute_generation_job
+    chunk_summaries.append(f"## Section {i+1}\\n{summarize_transcript(chunk, selected_model)}")
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\content\generators.py", line 73, in summarize_transcript
+    return _ollama_chat(messages, model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\content\generators.py", line 34, in _ollama_chat
+    with urllib.request.urlopen(req, timeout=settings.OLLAMA_TIMEOUT) as resp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 1352, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\http\client.py", line 1415, in getresponse
+    response.begin()
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\http\client.py", line 330, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\http\client.py", line 291, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+2026-05-23 17:20:06,941 | ERROR    | __main__ | Job f7b4461e failed during execution: timed out
+2026-05-23 17:20:06,942 | ERROR    | utils.session_manager | Job f7b4461e failed: timed out
+Traceback (most recent call last):
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\utils\session_manager.py", line 70, in _process
+    result = processing_func(job_id, self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 480, in job_wrapper
+    # --- CACHE CHECK ---
+                   ^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 75, in execute_generation_job
+    raise e
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 54, in execute_generation_job
+    chunk_summaries.append(f"## Section {i+1}\\n{summarize_transcript(chunk, selected_model)}")
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\content\generators.py", line 73, in summarize_transcript
+    return _ollama_chat(messages, model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\content\generators.py", line 34, in _ollama_chat
+    with urllib.request.urlopen(req, timeout=settings.OLLAMA_TIMEOUT) as resp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\urllib\request.py", line 1352, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\http\client.py", line 1415, in getresponse
+    response.begin()
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\http\client.py", line 330, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\http\client.py", line 291, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+2026-05-24 15:33:43,596 | INFO     | utils.cache_manager | Cache HIT: Transcript for https://www.youtube.com/watch?v=p4pHsuEf4Ms
+2026-05-24 15:34:56,945 | INFO     | utils.transcript_extractor | Attempting Strategy 1 (transcript_api) for video D74el9mvNak
+2026-05-24 15:34:58,604 | INFO     | utils.cache_manager | Cache SAVE: Transcript for https://www.youtube.com/watch?v=D74el9mvNak
+2026-05-24 15:39:00,468 | INFO     | utils.transcript_extractor | Attempting Strategy 1 (transcript_api) for video rV3HJ4LEZ7k
+2026-05-24 15:39:02,333 | INFO     | utils.cache_manager | Cache SAVE: Transcript for https://www.youtube.com/watch?v=rV3HJ4LEZ7k
+2026-05-24 16:32:05,292 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 16:34:18,042 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:23:03,510 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:23:07,707 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:23:16,604 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:23:17,463 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:23:17,500 | INFO     | validators | Valid YouTube URL validated. Video ID: p4pHsuEf4Ms
+2026-05-24 17:23:17,508 | INFO     | utils.cache_manager | Cache HIT: Transcript for https://www.youtube.com/watch?v=p4pHsuEf4Ms
+2026-05-24 17:23:20,808 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:23:24,253 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:23:24,987 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:23:25,814 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:23:25,837 | ERROR    | utils.session_manager | Job f1c6e542 failed: 
+Traceback (most recent call last):
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\utils\session_manager.py", line 70, in _process
+    result = processing_func(job_id, self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\app.py", line 446, in job_wrapper
+    progress_tracker.update("extract", "Starting content generation...")
+  File "C:\Users\swarnabh\Desktop\Github_Projects\content_creation_2\progress_tracker.py", line 65, in update
+    self.progress_bar.progress(progress)
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\site-packages\streamlit\elements\progress.py", line 167, in progress
+    return self.dg._enqueue("progress", progress_proto, layout_config=layout_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\site-packages\streamlit\delta_generator.py", line 530, in _enqueue
+    _enqueue_message(msg)
+  File "C:\Users\swarnabh\anaconda3\envs\aispace\Lib\site-packages\streamlit\runtime\scriptrunner_utils\script_run_context.py", line 272, in enqueue_message
+    raise NoSessionContext()
+streamlit.errors.NoSessionContext
+2026-05-24 17:23:26,860 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:31:53,082 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:31:56,671 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:31:57,700 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:31:57,731 | INFO     | validators | Valid YouTube URL validated. Video ID: p4pHsuEf4Ms
+2026-05-24 17:31:57,732 | INFO     | utils.cache_manager | Cache HIT: Transcript for https://www.youtube.com/watch?v=p4pHsuEf4Ms
+2026-05-24 17:31:59,845 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:00,910 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:01,968 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:03,031 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:04,105 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:05,165 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:06,245 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:07,296 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:08,361 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:09,417 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:10,483 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:11,555 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:12,614 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:13,676 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:14,745 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:32:15,815 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:40:52,914 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:40:56,706 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:40:57,505 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:40:57,542 | INFO     | validators | Valid YouTube URL validated. Video ID: p4pHsuEf4Ms
+2026-05-24 17:40:57,543 | INFO     | utils.cache_manager | Cache HIT: Transcript for https://www.youtube.com/watch?v=p4pHsuEf4Ms
+2026-05-24 17:41:09,112 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:41:10,432 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:41:11,500 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:41:12,561 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:41:13,632 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:41:14,704 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:41:15,766 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:41:16,839 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:41:17,900 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:41:18,970 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:41:20,041 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:16,599 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:20,248 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:21,866 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:21,901 | INFO     | validators | Valid YouTube URL validated. Video ID: p4pHsuEf4Ms
+2026-05-24 17:55:21,903 | INFO     | utils.cache_manager | Cache HIT: Transcript for https://www.youtube.com/watch?v=p4pHsuEf4Ms
+2026-05-24 17:55:24,509 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:25,550 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:26,596 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:27,674 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:28,736 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:29,808 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:30,878 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:31,946 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:33,016 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:34,070 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:35,136 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:35,162 | INFO     | history_manager | Saved generation record with ID: 1
+2026-05-24 17:55:35,189 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:35,321 | WARNING  | weasyprint | Ignored `overflow-x: auto` at 34:21, unknown property.
+2026-05-24 17:55:35,502 | INFO     | pdf_generator | Generated professional PDF (35630 bytes)
+2026-05-24 17:55:42,117 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:42,149 | WARNING  | weasyprint | Ignored `overflow-x: auto` at 34:21, unknown property.
+2026-05-24 17:55:42,275 | INFO     | pdf_generator | Generated professional PDF (35630 bytes)
+2026-05-24 17:55:43,699 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:44,765 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:45,835 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:46,918 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:47,990 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:49,063 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:50,132 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:51,203 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:52,273 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:53,344 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:54,406 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:55,465 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:55,509 | INFO     | history_manager | Saved generation record with ID: 2
+2026-05-24 17:55:55,536 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:55:55,604 | WARNING  | weasyprint | Ignored `overflow-x: auto` at 34:21, unknown property.
+2026-05-24 17:55:55,764 | INFO     | pdf_generator | Generated professional PDF (52447 bytes)
+2026-05-24 17:56:04,566 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:56:04,629 | WARNING  | weasyprint | Ignored `overflow-x: auto` at 34:21, unknown property.
+2026-05-24 17:56:04,795 | INFO     | pdf_generator | Generated professional PDF (52452 bytes)
+2026-05-24 17:56:49,908 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:56:49,969 | WARNING  | weasyprint | Ignored `overflow-x: auto` at 34:21, unknown property.
+2026-05-24 17:56:50,119 | INFO     | pdf_generator | Generated professional PDF (52452 bytes)
+2026-05-24 17:56:50,836 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:56:51,903 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:56:52,959 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:56:54,015 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:56:55,065 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:56:56,138 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:56:57,198 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:56:57,240 | INFO     | history_manager | Saved generation record with ID: 3
+2026-05-24 17:56:57,268 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 17:56:57,331 | WARNING  | weasyprint | Ignored `overflow-x: auto` at 34:21, unknown property.
+2026-05-24 17:56:57,425 | INFO     | pdf_generator | Generated professional PDF (29940 bytes)
+2026-05-24 18:25:54,640 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:25:58,558 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:25:59,397 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:25:59,420 | INFO     | validators | Valid YouTube URL validated. Video ID: p4pHsuEf4Ms
+2026-05-24 18:25:59,422 | INFO     | utils.cache_manager | Cache HIT: Transcript for https://www.youtube.com/watch?v=p4pHsuEf4Ms
+2026-05-24 18:26:06,705 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:26:11,216 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:26:12,280 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:26:13,348 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:26:14,417 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:26:15,471 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:26:16,541 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:26:17,616 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:26:18,675 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:26:19,733 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:26:20,800 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:26:21,865 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:26:21,912 | INFO     | history_manager | Saved generation record with ID: 4
+2026-05-24 18:26:21,940 | INFO     | history_manager | HistoryManager initialized with database: ./content_history.db
+2026-05-24 18:26:22,064 | WARNING  | weasyprint | Ignored `overflow-x: auto` at 34:21, unknown property.
+2026-05-24 18:26:22,244 | INFO     | pdf_generator | Generated professional PDF (48626 bytes)
