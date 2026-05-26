@@ -81,12 +81,12 @@ content-creator/
 
 🤝 Supported Content Types
 # Type	Description
-📝 Summary	Structured overview with key topics, quotes & takeaways
-📰 Technical Blog	Full blog post with sections, takeaways & hashtags
-✍️ Medium Article	Story-driven article with pull quotes & tags
-💼 LinkedIn Post	Scroll-stopping professional post with engagement hooks
-⚙️ Configuration
-Variable	Default	Description
+- 📝 Summary	Structured overview with key topics, quotes & takeaways
+- 📰 Technical Blog	Full blog post with sections, takeaways & hashtags
+- ✍️ Medium Article	Story-driven article with pull quotes & tags
+- 💼 LinkedIn Post	Scroll-stopping professional post with engagement hooks
+- ⚙️ Configuration
+# Variable	Default	Description
 OLLAMA_BASE_URL	http://localhost:11434	Ollama API endpoint
 STREAMLIT_SERVER_PORT	8501	Streamlit server port
 Create a .env file from .env.example to override defaults.
