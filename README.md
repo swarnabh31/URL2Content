@@ -28,7 +28,7 @@ Transform any YouTube video into professional content — instantly. Powered by 
    # or
    ollama pull llama3.2
 
-Installation
+## Installation
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/content-creator.git
 cd content-creator
