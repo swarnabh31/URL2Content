@@ -52,18 +52,31 @@ Copy or Download — Copy-paste directly or download as .md
 # 🏗️ Project Structure
 
 content-creator/
+
 ├── app.py                  # Main Streamlit application
+
 ├── content/
+
 │   ├── __init__.py
+
 │   └── generators.py       # Content generation logic (summary, blog, etc.)
+
 ├── utils/
+
 │   ├── __init__.py
+
 │   ├── ollama_manager.py   # Ollama model detection & filtering
+
 │   └── transcript_extractor.py  # YouTube transcript extraction
+
 ├── requirements.txt        # Python dependencies
+
 ├── .env.example            # Environment variable template
+
 ├── .gitignore
+
 ├── README.md
+
 └── LICENSE
 
 🤝 Supported Content Types
