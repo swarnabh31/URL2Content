@@ -29,6 +29,7 @@ Transform any YouTube video into professional content — instantly. Powered by 
    ollama pull llama3.2
 
 ## Installation
+
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/content-creator.git
 cd content-creator
@@ -40,14 +41,16 @@ pip install -r requirements.txt
 streamlit run app.py
 The app will open in your browser at http://localhost:8501.
 
-📋 How to Use
+# 📋 How to Use
 Paste a YouTube URL — Any YouTube video link
 Extract Transcript — Click to pull captions
 Choose a Model — Select from the sidebar dropdown (auto-detected)
 Select Content Type — Summary, Blog, Article, or LinkedIn
 Generate — Click to create your content
 Copy or Download — Copy-paste directly or download as .md
-🏗️ Project Structure
+
+# 🏗️ Project Structure
+
 content-creator/
 ├── app.py                  # Main Streamlit application
 ├── content/
@@ -64,7 +67,7 @@ content-creator/
 └── LICENSE
 
 🤝 Supported Content Types
-Type	Description
+# Type	Description
 📝 Summary	Structured overview with key topics, quotes & takeaways
 📰 Technical Blog	Full blog post with sections, takeaways & hashtags
 ✍️ Medium Article	Story-driven article with pull quotes & tags
@@ -75,25 +78,16 @@ OLLAMA_BASE_URL	http://localhost:11434	Ollama API endpoint
 STREAMLIT_SERVER_PORT	8501	Streamlit server port
 Create a .env file from .env.example to override defaults.
 
-🤖 Compatible Models
-Any text/chat model installed in Ollama works. Tested with:
-
-qwen2.5 — Excellent general purpose
-phi3 — Fast & lightweight
-llama3.2 — Strong reasoning
-mistral — Great for technical content
-deepseek-coder — Code-focused content
-neural-chat — Conversational tone
-gemma2 — Creative writing
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Frontend: Streamlit
 Transcript: yt-dlp, youtube-transcript-api
 AI: Ollama (local inference)
 Language: Python 3.10+
-📄 License
+
+# 📄 License
 MIT License — see LICENSE for details.
 
-🙏 Acknowledgments
+# 🙏 Acknowledgments
 yt-dlp — YouTube downloader
 youtube-transcript-api — Transcript extraction
 Ollama — Local AI inference
