@@ -62,6 +62,7 @@ content-creator/
 ├── .gitignore
 ├── README.md
 └── LICENSE
+
 🤝 Supported Content Types
 Type	Description
 📝 Summary	Structured overview with key topics, quotes & takeaways
