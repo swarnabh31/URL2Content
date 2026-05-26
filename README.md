@@ -87,22 +87,24 @@ content-creator/
 - 💼 LinkedIn Post	Scroll-stopping professional post with engagement hooks
 - ⚙️ Configuration
 # Variable	Default	Description
-OLLAMA_BASE_URL	http://localhost:11434	Ollama API endpoint
-STREAMLIT_SERVER_PORT	8501	Streamlit server port
-Create a .env file from .env.example to override defaults.
+- OLLAMA_BASE_URL	http://localhost:11434	Ollama API endpoint
+- STREAMLIT_SERVER_PORT	8501	Streamlit server port
+- Create a .env file from .env.example to override defaults.
 
 # 🛠️ Tech Stack
-Frontend: Streamlit
-Transcript: yt-dlp, youtube-transcript-api
-AI: Ollama (local inference)
-Language: Python 3.10+
+- Frontend: Streamlit
+- Transcript: yt-dlp, youtube-transcript-api
+- AI: Ollama (local inference)
+- Language: Python 3.10+
 
 # 📄 License
 MIT License — see LICENSE for details.
 
 # 🙏 Acknowledgments
-yt-dlp — YouTube downloader
-youtube-transcript-api — Transcript extraction
-Ollama — Local AI inference
-Streamlit — App framework
+- yt-dlp — YouTube downloader
+- youtube-transcript-api — Transcript extraction
+- Ollama — Local AI inference
+-Streamlit — App framework
+
+
 Built with ❤️ for creators who value privacy and local AI.
