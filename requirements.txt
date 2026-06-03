@@ -1,0 +1,12 @@
+# Core dependencies
+streamlit>=1.31.0
+yt-dlp>=2024.0.0
+youtube-transcript-api>=0.6.0
+pydantic>=2.0
+pydantic-settings>=2.0
+weasyprint>=60.0
+reportlab
+
+# For PDF generation (weasyprint preferred, reportlab as fallback)
+
+# Ollama API (stdlib - urllib, json)
