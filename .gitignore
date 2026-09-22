@@ -54,3 +54,13 @@ node_modules/
 # Content
 content/*.md
 content/*.txt
+
+# Cache
+.cache/
+
+# Logs
+logs/
+*.log
+
+# Local databases
+*.db
